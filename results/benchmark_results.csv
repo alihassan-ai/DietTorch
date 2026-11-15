@@ -1,0 +1,6 @@
+Model Variant,Precision,Test Accuracy (%),Model Size (MB),Compression Ratio,Total Parameters,Active Parameters,Sparsity (%),Batch Latency (ms),Latency per Sample (ms),Throughput (samples/s)
+Baseline FP32,FP32,95.1,42.7,1.0,11173962,11173962,0.0,165.89,5.184,192.9
+PTQ INT8,INT8,94.58,10.81,3.95,0,0,100.0,60.13,1.879,532.2
+QAT INT8,INT8,94.9,10.81,3.95,0,0,100.0,58.46,1.827,547.4
+Unstructured Pruned,FP32,94.64,42.7,1.0,11173962,5591786,49.96,167.51,5.235,191.0
+Structured Pruned,FP32,93.39,30.11,1.42,7871178,7871178,0.0,154.78,4.837,206.7

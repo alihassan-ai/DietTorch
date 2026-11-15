@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+
+# Large Raw Datasets (automatically downloaded via torchvision if needed)
+data/
+*.tar.gz
+
+# macOS system files
+.DS_Store
+
+# Submission archives (submit directly to Google Classroom, not GitHub)
+*.zip
+
+# Temporary logs
+*.log
